@@ -19,11 +19,11 @@ Requirements:
 
 1. Clone this repository
 
-    `git clone https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting.git`;
+    `git clone https://github.com/ViTAE-Transformer/P3M-Net.git`;
 
 2. Go into the repository
 
-    `cd ViTAE-Transformer-Matting`;
+    `cd P3M-Net`;
 
 3. Create conda environment and activate
 

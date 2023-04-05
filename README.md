@@ -1,9 +1,9 @@
-<h1 align="center">Rethinking Portrait Matting with Privacy Preserving</h1>
+<h1 align="center">Rethinking Portrait Matting with Privacy Preserving [IJCV-2023]</h1>
 
 <p align="center">
 <a href="https://arxiv.org/abs/2203.16828"><img  src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg" ></a>
 <a href="https://colab.research.google.com/drive/1pD_XKx31Lgd7zwq46dRpz2jGdsH1ZIay?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg"></a>
-<a href="https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting/blob/master/LICENSE"><img  src="https://img.shields.io/badge/license-MIT-blue"></a>
+<a href="https://github.com/ViTAE-Transformer/P3M-Net/blob/master/LICENSE"><img  src="https://img.shields.io/badge/license-MIT-blue"></a>
 <!-- <a href="https://paperswithcode.com/sota/image-matting-on-p3m-10k"><img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/privacy-preserving-portrait-matting/image-matting-on-p3m-10k"></a>
 </p> -->
 
@@ -28,6 +28,8 @@ For further questions, please contact <strong><i>Sihan Ma</i></strong> at [sima7
 
 ***
 ><h3><strong><i>:postbox: News</i></strong></h3>
+>
+> [2023-03-28]: The paper has been accepted by the International Journal of Computer Vision ([IJCV](https://www.springer.com/journal/11263))! 🎉
 >
 > [2022-03-31]: Publish the <a href="#inference-code---how-to-test-on-your-images">inference code</a> and the pretrained model ([Google Drive](https://drive.google.com/file/d/1QbSjPA_Mxs7rITp_a9OJiPeFRDwxemqK/view?usp=sharing) | [Baidu Wangpan](https://pan.baidu.com/s/19FuiR1RwamqvxfhdXDL1fg) (pw: hxxy)) that can be used to test with our SOTA model <strong>P3M-Net(ViTAE-S)</strong> on your own privacy-preserving or normal portrait images.
 > 
@@ -106,7 +108,7 @@ P3M-10k and the facemask are now <strong>published</strong>!! You can get access
 
 <p align="justify">Here we provide the procedure of testing on sample images by our pretrained <strong>P3M-Net(ViTAE-S)</strong> model:</p>
 
-1. Setup environment following this [instruction page](https://github.com/ViTAE-Transformer/ViTAE-Transformer-Matting/tree/main/core);
+1. Setup environment following this [instruction page](https://github.com/ViTAE-Transformer/P3M-Net/tree/main/core);
 
 2. Insert the path `REPOSITORY_ROOT_PATH` in the file `core/config.py`;
 
@@ -137,9 +139,10 @@ P3M-10k and the facemask are now <strong>published</strong>!! You can get access
 @article{rethink_p3m,
   title={Rethinking Portrait Matting with Pirvacy Preserving},
   author={Ma, Sihan and Li, Jizhizi and Zhang, Jing and Zhang, He and Tao, Dacheng},
-  publisher = {arXiv},
-  doi={10.48550/ARXIV.2203.16828},
-  year={2022}
+  journal={International Journal of Computer Vision},
+  publisher={Springer},
+  ISSN={1573-1405},
+  year={2023}
 }
 ```
 
