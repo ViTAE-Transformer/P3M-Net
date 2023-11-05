@@ -30,6 +30,8 @@ For further questions, please contact <strong><i>Sihan Ma</i></strong> at [sima7
 ***
 ><h3><strong><i>:postbox: News</i></strong></h3>
 >
+> [2023-11-05]: Publish the ViTAE-S and SWIN-T backbone models pretrained on ImageNet ([Google Drive](https://drive.google.com/drive/folders/1sBRVgvFNtkZql1_ti_CxCgZs2O8U4RmW?usp=sharing) | [Baidu Wangpan](https://pan.baidu.com/s/1pVfUWAs-DcwTbWcUVGrfRw) (pw: wqac)) that can be used to train our P3M-Net from scratch.
+>
 > [2023-03-28]: The paper has been accepted by the International Journal of Computer Vision ([IJCV](https://www.springer.com/journal/11263))! 🎉
 >
 > [2022-03-31]: Publish the <a href="#inference-code---how-to-test-on-your-images">inference code</a> and the pretrained model ([Google Drive](https://drive.google.com/file/d/1QbSjPA_Mxs7rITp_a9OJiPeFRDwxemqK/view?usp=sharing) | [Baidu Wangpan](https://pan.baidu.com/s/19FuiR1RwamqvxfhdXDL1fg) (pw: hxxy)) that can be used to test with our SOTA model <strong>P3M-Net(ViTAE-S)</strong> on your own privacy-preserving or normal portrait images.
@@ -83,11 +85,12 @@ P3M-10k and the facemask are now <strong>published</strong>!! You can get access
 
 ![](demo/p3m-net-variants.png)
 
-<p align="justify">Here we provide the <strong>P3M-Net(ViTAE-S)</strong> model we pretrained on P3M-10k.</p>
+<p align="justify">Here we provide the <strong>P3M-Net(ViTAE-S)</strong> model pretrained on P3M-10k, and the ViTAE-S and SWIN-T backbones pretrained on ImageNet.</p>
 
 | Model|  Google Drive | Baidu Wangpan(百度网盘) | 
 | :----: | :----:| :----: | 
 | P3M-Net(ViTAE-S)  | [Link](https://drive.google.com/file/d/1QbSjPA_Mxs7rITp_a9OJiPeFRDwxemqK/view?usp=sharing) | [Link](https://pan.baidu.com/s/19FuiR1RwamqvxfhdXDL1fg) (pw: hxxy) |
+| ViTAE-S, SWIN-T | [Link](https://drive.google.com/drive/folders/1sBRVgvFNtkZql1_ti_CxCgZs2O8U4RmW?usp=sharing) | [Link](https://pan.baidu.com/s/1pVfUWAs-DcwTbWcUVGrfRw) (pw: wqac) |
 
 
 ## P3M-CP
